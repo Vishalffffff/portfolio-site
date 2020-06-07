@@ -1,0 +1,180 @@
+body{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+
+.main-container{
+
+    width: 100%;
+    display:flex;
+
+}
+
+.flex-container
+{
+    width: 100%;
+    display:flex;
+    height:100px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.menu.item1{
+    background-color: darkorange;
+    text-align: center;
+    padding-left: 80px;
+    font-size:xx-large;
+}
+
+.menu.item2{
+    background-color: rgb(8, 200, 248);
+    text-align: center;
+    padding-left: 80px;
+    font-size:xx-large;
+}
+.menu.item3{
+    background-color: deeppink ;
+    text-align: center;
+    font-size:xx-large;
+    padding-left: 80px;
+}
+
+.image-container{
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+#banner-image{
+    width:100%;
+    opacity: 0.8;
+}
+.banner-title{
+   position: absolute; 
+ 
+   top:14%;
+   left:10%;
+   font-size: 3cm;
+}
+.banner-subtitle{
+    position: absolute; 
+    font-size : 0.4cm;
+   top:42%;
+   left:38%;
+   color:rgb(255,248,220);
+ }
+ .skill-container{
+     display:flex;
+     width:100%;
+     justify-content: center;
+     height:300px;
+     margin-top: 50px;
+     flex-direction: row;
+     margin-left:auto;
+ }
+ .skill1{
+     display:flex;
+     width:100%;
+     margin-top: 40px;
+     justify-content: center;
+ }
+ #image{
+     width:150px;
+     height:150px;
+     margin-right: 35px;
+ }
+ #skill-text{
+     color: black;
+     margin-top:34px;
+     font-weight:bold ;
+     font-size:2em;
+     margin-right: 48px;
+ }
+ .portfolio-heading{
+     display: flex;
+     width:100%;
+     height:70px;
+    
+     font-size: 2em;
+     margin-bottom: 10px;
+     
+ }
+
+ .portfolio-title{
+    display: flex;
+    text-align: center;
+    font-size: 1.2em;
+    margin-left: 40%;
+    
+}
+ 
+ .myskill{
+     display: flex;
+     text-align: center;
+ }
+
+ .myskill-title{
+     display: flex;
+     text-align: center;
+     font-size: 2em;
+     margin-left: 45%;
+     margin-top: 25px;
+ }
+ .portfolio-container{
+     display: flex;
+     margin-left: 50px;
+     margin-top:100px ;
+
+ }
+ #portfolioimg{
+     height: 180px;
+     width: 300px;
+     margin-left: 100px;
+ }
+ .portfolio-desc{
+     margin-left: 20px;
+    
+ }
+ .portfolio-name{
+     font-size: 2em;
+     margin-left: 100px;
+ }
+ .portfolio-info{
+     font-size: 1em;
+     margin-left:100px;
+     color: gray;
+ }
+ hr{
+     width:40%;
+     margin-left: 500px; 
+     align-self: center;
+ }
+ .testimonials{
+     display: flex;
+     margin-left: 40%;
+     margin-top: 50px;
+     flex-direction: column;
+ }
+.client-name{
+    font-size: 1.5em;
+     margin-left: 40%;
+    display: flex;
+}
+.client-designation{
+    font-size: 1em; 
+     margin-left: 39%;
+     color: gray;
+     display: flex;
+}
+.client-info{
+    font-size: 1em;
+    font-style: italic;
+    display: flex;
+}
+.contact{
+    margin-left: 40%;
+    color: grey;
+}
